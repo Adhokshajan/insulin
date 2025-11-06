@@ -4,7 +4,7 @@ import GlucoseCard from './components/GlucoseCard';
 import DosageChart from './components/DosageChart';
 
 function App() {
-  const [glucoseLevel, setGlucoseLevel] = useState(110);
+  const [glucoseLevel, setGlucoseLevel] = useState(180);
   const [insulinLevel, setInsulinLevel] = useState(75);
   const [isAdministering, setIsAdministering] = useState(false);
 
