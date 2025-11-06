@@ -1,6 +1,6 @@
 import React from 'react';
 
-const GlucoseCard = ({ glucoseLevel = 180 }) => {
+const GlucoseCard = ({ glucoseLevel = 110 }) => {
   const getGlucoseStatus = (level) => {
     if (level < 70) return { status: 'Low', color: 'danger-red', bgColor: 'bg-red-50', textColor: 'text-red-600' };
     if (level > 180) return { status: 'High', color: 'warning-orange', bgColor: 'bg-orange-50', textColor: 'text-orange-600' };
